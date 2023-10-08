@@ -55,3 +55,20 @@ class NotesManager:
         with open(self.file_path, 'w') as file:
             json.dump(notes, file)
 
+# if __name__ == '__main__':
+#      Пример использования
+
+#      Создание менеджера заметок
+#     notes_manager = NotesManager("notes.json")
+
+#      Создание заметки
+#     notes_manager.create_note("Заметка 1", "Это содержимое заметки 1")
+
+#      Чтение списка заметок
+#     notes_manager.read_notes()
+
+#      Редактирование заметки
+#     notes_manager.update_note("Заметка 1", "Новое содержимое заметки 1")
+
+#      Удаление заметки
+#     notes_manager.delete_note("Заметка 1")
